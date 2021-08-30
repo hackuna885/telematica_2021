@@ -96,7 +96,7 @@ app.component('inicio-horarios', {
   app.component('inicio-calificaciones', {
     template: /*html*/ `
     <div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
-      <div class="col-md-7 text-center mx-auto">
+      <div class="col-md-8 text-center mx-auto">
         <div class="mx-auto centrado cuandroUno animate__animated animate__pulse animate__delay-3s">
           <img src="img/Logo_UTFV.png" alt="Logo UTFV" class="img-fluid">
         </div>
