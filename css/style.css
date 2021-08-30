@@ -1,0 +1,239 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+body {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #23153C; }
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 78px;
+  background-color: #11101d;
+  padding: 6px 14px;
+  transition: all 0.5s ease; }
+
+.sidebar.active {
+  width: 240px; }
+
+.sidebar .logo_content .logo {
+  color: #fff;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  transition: all 0.5s ease;
+  opacity: 0;
+  pointer-events: none; }
+
+.sidebar.active .logo_content .logo {
+  opacity: 1;
+  pointer-events: none; }
+
+.logo_content .logo i {
+  font-size: 28px;
+  margin-right: 5px; }
+
+.logo_content .logo .logo_name {
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 400; }
+
+.sidebar #btn {
+  position: absolute;
+  color: #fff;
+  top: 6px;
+  left: 50%;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  transform: translateX(-50%); }
+
+.sidebar.active #btn {
+  left: 90%; }
+
+.sidebar ul {
+  margin-top: 20px; }
+
+.sidebar ul li {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin: 0px -30px;
+  list-style: none;
+  line-height: 50px; }
+
+.sidebar ul li .tooltip {
+  position: absolute;
+  left: 122px;
+  top: 0px;
+  transform: translate(-50%, -50%);
+  border-radius: 6px;
+  height: 35px;
+  width: 122px;
+  background-color: #fff;
+  line-height: 35px;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0s;
+  opacity: 0;
+  pointer-events: none;
+  display: block; }
+
+.sidebar.active ul li .tooltip {
+  display: none; }
+
+.sidebar ul li:hover .tooltip {
+  transition: all 0.5s ease;
+  opacity: 1;
+  top: 50%; }
+
+.sidebar ul li a {
+  color: #7DCB32;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  border-radius: 12px;
+  white-space: nowrap;
+  width: 100%;
+  min-width: 50px; }
+
+.sidebar ul li a:hover {
+  color: #11101d;
+  background: #fff; }
+
+.sidebar ul li a i {
+  height: 50px;
+  min-width: 50px;
+  border-radius: 12px;
+  line-height: 50px;
+  text-align: center;
+  transition: all 0.5s ease; }
+
+.sidebar .links_name {
+  transition: all 0.5s ease;
+  opacity: 0;
+  pointer-events: none; }
+
+.sidebar.active .links_name {
+  opacity: 1;
+  pointer-events: auto; }
+
+.sidebar .profile_content {
+  position: absolute;
+  color: #fff;
+  font-size: .6em;
+  font-weight: 400;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  transition: all 0.5s ease;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap; }
+
+.sidebar.active .profile_content {
+  transition: all 0.5s ease;
+  opacity: 1;
+  pointer-events: auto; }
+
+.sidebar .profile_content .profile {
+  position: relative;
+  padding: 10px 6px;
+  height: 65px;
+  background-color: #1d1b31; }
+
+.profile_content .profile .profile_details {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap; }
+
+.sidebar.active .profile .profile_details {
+  opacity: 1;
+  pointer-events: auto; }
+
+.profile .profile_details img {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 12px; }
+
+.profile .profile_details .name_job {
+  margin-left: 10px; }
+
+.home_content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 78px;
+  transition: all 0.5s ease; }
+
+.sidebar.active ~ .home_content {
+  width: 100%;
+  left: 240px; }
+
+.home_content .text {
+  color: #7DCB32; }
+
+#vanta-canvas {
+  width: 100%;
+  height: 100vh;
+  z-index: -1; }
+
+.cuandroUno {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 50px 0px;
+  background-color: rgba(35, 21, 60, 0.7);
+  border: solid 2px #7DCB32;
+  border-radius: 10px; }
+
+.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.listaArchivos {
+  padding: 0px; }
+
+.listaArchivos li {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.listaArchivos li a {
+  display: flex;
+  color: #7DCB32;
+  text-decoration: none;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  border-radius: 12px;
+  white-space: nowrap;
+  width: 100%; }
+
+.listaArchivos li a:hover {
+  color: #11101d;
+  background: #fff; }
+
+.listaArchivos .fontGrande {
+  font-size: 2em;
+  margin: 5px; }
+
+/*# sourceMappingURL=style.css.map */
