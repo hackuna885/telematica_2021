@@ -42,10 +42,12 @@
                             <span class="tooltip">Inicio</span>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class='bx bx-list-check'></i>
-                                <span class="links_name">Listas</span>
-                            </a>
+                            <router-link class="a" to="/inicio-listas">
+                                <a href="#">
+                                    <i class='bx bx-list-check'></i>
+                                    <span class="links_name">Listas</span>
+                                </a>
+                            </router-link>
                             <span class="tooltip">Listas</span>
                         </li>
                         <li>
