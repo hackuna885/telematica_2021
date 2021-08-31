@@ -42,7 +42,7 @@
                             <span class="tooltip">Inicio</span>
                         </li>
                         <li>
-                            <router-link class="a" to="/inicio-listas">
+                            <router-link class="a" to="/">
                                 <a href="#">
                                     <i class='bx bx-list-check'></i>
                                     <span class="links_name">Listas</span>
