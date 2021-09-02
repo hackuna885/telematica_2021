@@ -41,8 +41,17 @@
                             </router-link>
                             <span class="tooltip">Inicio</span>
                         </li>
+                        <li>                            
+                            <router-link class="a" to="/inicio-classroom">
+                                <a href="#">
+                                    <i class='bx bxs-detail'></i>
+                                    <span class="links_name">Classroom</span>
+                                </a>
+                            </router-link>
+                            <span class="tooltip">Classroom</span>
+                        </li>
                         <li>
-                            <router-link class="a" to="/">
+                            <router-link class="a" to="/inicio-listas">
                                 <a href="#">
                                     <i class='bx bx-list-check'></i>
                                     <span class="links_name">Listas</span>

@@ -1,7 +1,7 @@
 app.component('inicio-listas', {
   template: /*html*/ `
   <div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
-    <div class="col-md-10 text-center mx-auto">
+    <div class="col-md-5 text-center mx-auto">
       <div class="mx-auto centrado cuandroUno animate__animated animate__pulse animate__delay-3s">
         <img src="img/Logo_UTFV.png" alt="Logo UTFV" class="img-fluid">
       </div>
@@ -16,6 +16,7 @@ app.component('inicio-listas', {
               <ul class="listaArchivos">
                   <li><a href="https://drive.google.com/file/d/1-6fI_xaf7MhheVy_4WEbJUtWbyqL8pB5/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRD 101-2021-3</a></li>
                   <li><a href="https://drive.google.com/file/d/1Us59mi5HlOu0sozjpFSlaAcGNacWkbv5/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRD 102-2021-3</a></li>
+                  <li><a href="https://drive.google.com/file/d/1c9DKyEO9WDsL33WV0PXzFqeQehJcAbJG/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRD 103-2021-3</a></li>
                   <li><a href="https://drive.google.com/file/d/1GlN9ZXeIV05Xmrxl-4Hk4gyVPzBZKXLK/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRD 201-2021-3</a></li>
                   <li><a href="https://drive.google.com/file/d/1a2cI4_6-CGn_GMB7NTkjr74nNN3w-mJq/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRD 301-2021-3</a></li>
                   <li><a href="https://drive.google.com/file/d/1o8O4P7cWuGSFXpVYGRHiVlHu34_tBcEI/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRD 401-2021-3</a></li>
@@ -25,13 +26,15 @@ app.component('inicio-listas', {
           <div class="col-md-6">
               <h5 class="text-white text-center">IRIC</h5>
               <ul class="listaArchivos">
+                  <li><a href="https://drive.google.com/file/d/1MGohrR2vLiuovPiWe_ktFdDkWxjHmSyd/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRIC 701-2021-3</li>
+                  <li><a href="https://drive.google.com/file/d/1TjH9XF_XfJorkfF_1_IIZPCgBkih8p4o/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRIC 703-2021-3</li>
                   <li><a href="https://drive.google.com/file/d/1o14Py0rmE3qJIiMmlDJOi6-g2QdIFmUo/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRIC 901-2021-3</li>
                   <li><a href="https://drive.google.com/file/d/1ZeHPXfI50loTYf5RKpo1hthX5LEu6AU7/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRIC 903-2021-3</li>
               </ul>
           </div>
         </div>
 
-        <p>Ultima actualización: 31/08/2021</p>
+        <p>Ultima actualización: 01/09/2021</p>
       </div>
     </div>
   </div>
@@ -60,6 +63,82 @@ app.component('web-inicio', {
     <div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
       <div class="col-md-5 mx-auto">
         <h1 class="text-center">Inicio</h1>
+      </div>
+    </div>
+    `,
+    data () {
+        return {
+            datos: '',
+        }
+    },
+    computed: { 
+
+    },
+    methods: {
+        
+    },
+    created () {
+        
+    },
+    mounted() {
+        
+    },
+  })
+app.component('inicio-classroom', {
+  template: /*html*/ `
+  <div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
+    <div class="col-md-8 text-center mx-auto">
+      <div class="mx-auto centrado cuandroUno animate__animated animate__pulse animate__delay-3s">
+        <img src="img/Logo_UTFV.png" alt="Logo UTFV" class="img-fluid">
+      </div>
+      <div class="mb-5" style="background-color: rgba(35, 21, 60, .7); border: solid 2px #7DCB32; border-radius: 10px; padding: 20px;">
+
+        <h1>Div. Académica Telemática</h1>
+        <h1>Classroom</h1>
+        <h5 class="text-white">TSU. En Tecnologías de la Información Área Infraestructura de Redes Digitales
+          <br>
+          e
+          <br>
+          Ingeniería en Redes Inteligentes y Ciberseguridad</h5>
+
+        <div class="row" style="font-size: .8em;">
+          <div class="col-md-10 mx-auto" style="overflow-x: auto">
+              <h5 class="text-white">IRD</h5>
+              <ul class="listaArchivos">
+                <li><a href="https://drive.google.com/file/d/14IE5hze1_XNKz73JWtVnfyPuCuVfxLnQ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> Códigos de Classroom</a></li>
+              </ul>
+          </div>
+        </div>
+
+        <p>Ultima actualización: 01/09/2021</p>
+      </div>
+    </div>
+  </div>
+  `,
+  data () {
+      return {
+          datos: '',
+      }
+  },
+  computed: { 
+
+  },
+  methods: {
+      
+  },
+  created () {
+      
+  },
+  mounted() {
+      
+  },
+})
+
+app.component('web-inicio', {
+    template: /*html*/ `
+    <div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
+      <div class="col-md-5 mx-auto">
+        <h1 class="text-center">Div. Académica Telemática</h1>
       </div>
     </div>
     `,
