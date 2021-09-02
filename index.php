@@ -18,7 +18,7 @@
     <script src="js/vue-router.js"></script>
     <script src="js/vuex.js"></script>
 </head>
-<body>
+<body onload="window.parent.caches.delete('call')">
     <div class="container-fluid animate__animated animate__fadeIn" id="app" oncontextmenu='return false'>
         <div class="row">
             <div class="col-12 mx-auto">
