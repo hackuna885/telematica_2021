@@ -27,14 +27,14 @@ app.component('inicio-listas', {
               <h5 class="text-white text-center">IRIC</h5>
               <ul class="listaArchivos">
                   <li><a href="https://drive.google.com/file/d/1MGohrR2vLiuovPiWe_ktFdDkWxjHmSyd/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRIC 701-2021-3</li>
-                  <li><a href="https://drive.google.com/file/d/1TjH9XF_XfJorkfF_1_IIZPCgBkih8p4o/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRIC 703-2021-3</li>
+                  <li><a href="https://drive.google.com/file/d/1x3H6WpGp9MQKAgaBUBH8HMIbeSGE-FWJ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRIC 702-2021-3</li>
                   <li><a href="https://drive.google.com/file/d/1o14Py0rmE3qJIiMmlDJOi6-g2QdIFmUo/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRIC 901-2021-3</li>
                   <li><a href="https://drive.google.com/file/d/1ZeHPXfI50loTYf5RKpo1hthX5LEu6AU7/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> IRIC 903-2021-3</li>
               </ul>
           </div>
         </div>
 
-        <p>Ultima actualización: 01/09/2021</p>
+        <p>Ultima actualización: 03/09/2021 7:01 am</p>
       </div>
     </div>
   </div>
