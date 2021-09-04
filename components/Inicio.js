@@ -181,6 +181,8 @@ app.component('inicio-horarios', {
                 </li>
                 <li><a href="https://drive.google.com/file/d/1SMhjYlKCKbL2KSCYOjj5WUPJ6if-RFxh/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class='fontGrande bx bxs-file-pdf'></i> IRD 102</a>
                 </li>
+                <li><a href="https://drive.google.com/file/d/1vACzT5bJ0U__kE6yrX2e78vJ4sjv-2I6/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class='fontGrande bx bxs-file-pdf'></i> IRD 103</a>
+                </li>
                 <li><a href="https://drive.google.com/file/d/1xdw-sjc0zdt5P-G449UUtvdVy2vZb1mc/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class='fontGrande bx bxs-file-pdf'></i> IRD 201</a>
                 </li>
                 <li><a href="https://drive.google.com/file/d/1PKW5wzwFjvTNqmnmfDUE_YWR4AryQGoE/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class='fontGrande bx bxs-file-pdf'></i> IRD 301</a>
