@@ -34,7 +34,7 @@ app.component('inicio-listas', {
           </div>
         </div>
 
-        <p>Ultima actualización: 03/09/2021 7:01 am</p>
+        <p>Ultima actualización: 07/09/2021 9:37 am</p>
       </div>
     </div>
   </div>
