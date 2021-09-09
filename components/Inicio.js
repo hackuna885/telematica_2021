@@ -137,8 +137,9 @@ app.component('inicio-classroom', {
 app.component('web-inicio', {
     template: /*html*/ `
     <div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
-      <div class="col-md-5 mx-auto">
+      <div class="col-md-8 mx-auto">
         <h1 class="text-center">Div. Académica Telemática</h1>
+        <img src="img/Banner_Curso_Induccion.png" alt="Banner" class="img-fluid my-3">
       </div>
     </div>
     `,
