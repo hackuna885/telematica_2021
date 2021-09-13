@@ -139,7 +139,7 @@ app.component('web-inicio', {
     <div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
       <div class="col-md-8 mx-auto">
         <h1 class="text-center">Div. Académica Telemática</h1>
-        <img src="img/Banner_Curso_Induccion.png" alt="Banner" class="img-fluid my-3">
+        <img src="img/convocatoria130920201.jpg" alt="Banner" class="img-fluid my-3">
       </div>
     </div>
     `,
