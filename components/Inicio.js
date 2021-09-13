@@ -137,8 +137,10 @@ app.component('inicio-classroom', {
 app.component('web-inicio', {
     template: /*html*/ `
     <div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
-      <div class="col-md-8 mx-auto">
+      <div class="col-md-5 mx-auto">
         <h1 class="text-center">Div. Académica Telemática</h1>
+        <p>Mañana 14-09-201 a las 11 am</p>
+        <a href="https://youtu.be/BWhtW4CLQuY">https://youtu.be/BWhtW4CLQuY</a>
         <img src="img/convocatoria130920201.jpg" alt="Banner" class="img-fluid my-3">
       </div>
     </div>
