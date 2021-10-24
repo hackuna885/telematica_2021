@@ -14,6 +14,7 @@ const Inicio_listas = { template: '<inicio-listas></inicio-listas>' }
 const Inicio_horarios = { template: '<inicio-horarios></inicio-horarios>' }
 const Inicio_calificaciones = { template: '<inicio-calificaciones></inicio-calificaciones>' }
 const Inicio_registro = { template: '<inicio-registro></inicio-registro>' }
+const Inicio_aulas = { template: '<inicio-aulas></inicio-aulas>' }
 
 const routes = [
   { path: '/', component: Inicio },
@@ -21,7 +22,8 @@ const routes = [
   { path: '/inicio-listas', component: Inicio_listas },
   { path: '/inicio-horarios', component: Inicio_horarios },
   { path: '/inicio-calificaciones', component: Inicio_calificaciones },
-  { path: '/inicio-registro', component: Inicio_registro }
+  { path: '/inicio-registro', component: Inicio_registro },
+  { path: '/inicio-aulas', component: Inicio_aulas }
 ]
 
 const router = VueRouter.createRouter({

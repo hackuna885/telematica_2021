@@ -286,3 +286,91 @@ app.component('inicio-horarios', {
         
     },
   })
+
+  app.component('inicio-aulas', {
+    template: /*html*/ `
+    <div class="row justify-content-center align-items-center vh-100 animate__animated animate__fadeIn">
+      <div class="col-md-6 text-center mx-auto">
+        <div class="mx-auto centrado cuandroUno animate__animated animate__pulse animate__delay-3s">
+          <img src="img/Logo_UTFV.png" alt="Logo UTFV" class="img-fluid">
+        </div>
+        <div class="mb-5" style="background-color: rgba(35, 21, 60, .7); border: solid 2px #7DCB32; border-radius: 10px; padding: 20px;">
+
+          <h1>Div. Académica Telemática</h1>
+          <h3 class="text-white">Horario de Aulas y Laboratorios</h3>
+
+          <div class="row" style="font-size: .8em;">
+            <div class="col-md-6 mx-auto">
+                <ul class="listaArchivos">
+                    
+                    <li>
+                      <a href="https://drive.google.com/file/d/1LvrpgIfI0SYHFsGhmt9bfPODNAnkDGLB/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> D100</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1yE5s-VU3FwQYA1U6VJY9hgVfaXNkchfu/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> D201 matutino</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/13N7D-zMtwXtZxRJsk90NGz7c9fqMqZAf/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> D201 vespertino</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1pnh0Xy7gw2Gx-DTW5IHjtiS-rFjTY1iQ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> D202 matutino</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1JmW2l8sPJuzQUZ9ep8-NKDpc1_cTqp3L/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> D202 vespertino</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1Pps5Pp5VjOEgMMtzxD_OyCcMFSRok1X2/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> D206 matutino </a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1RNKGilrPOOp56RIuGSWgDYytqHi-oNkD/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> D206 vespertino</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1qIfFziVK5X3cyFJmE9-awGF4ipxspLX4/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> D207 matutino</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1a41-A6C5ZrKH_3Ye_rmC5XXIiqsuPrKc/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> D207 vespertino</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1FfphSfhyiyGn5Dp3a9hF_TyCQ5Uj8uHz/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> K Aditorio</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1X28Rgkbu0Wgav9Xut-FgWvVqwOu6DfXP/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> K105</a>
+                    </li>
+                    <li>
+
+                      <a href="https://drive.google.com/file/d/17AV7M5XK56WDJNZ55LnX6Mfb_9lFgFW-/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> K107</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1-sWfE6uoa-4-driCUjqPBTLC9yQUGVql/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> K109</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1YjPke6e8dQVGV35AFyrBxmeEeSXrqMHj/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> Kdirección matutino</a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1FS6luJxWln2oK-S6RkHSuWXfmvOT6-B0/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> Kdirección vespertino</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    `,
+    data () {
+        return {
+            datos: '',
+        }
+    },
+    computed: { 
+
+    },
+    methods: {
+        
+    },
+    created () {
+        
+    },
+    mounted() {
+        
+    },
+  })

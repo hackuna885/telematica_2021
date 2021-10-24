@@ -72,6 +72,15 @@
                             <span class="tooltip">Horarios</span>
                         </li>
                         <li>
+                            <router-link class="a" to="/inicio-aulas">
+                                <a href="#">
+                                    <i class='bx bxs-school'></i>
+                                    <span class="links_name">Aulas</span>
+                                </a>
+                                <span class="tooltip">Aulas</span>
+                            </router-link>
+                        </li>
+                        <li>
                             <router-link class="a" to="/inicio-calificaciones">
                                 <a href="#">
                                     <i class='bx bx-book-bookmark'></i>
