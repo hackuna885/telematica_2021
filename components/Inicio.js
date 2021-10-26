@@ -331,9 +331,6 @@ app.component('inicio-horarios', {
                       <a href="https://drive.google.com/file/d/1a41-A6C5ZrKH_3Ye_rmC5XXIiqsuPrKc/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> D207 vespertino</a>
                     </li>
                     <li>
-                      <a href="https://drive.google.com/file/d/1FfphSfhyiyGn5Dp3a9hF_TyCQ5Uj8uHz/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> K Aditorio</a>
-                    </li>
-                    <li>
                       <a href="https://drive.google.com/file/d/1X28Rgkbu0Wgav9Xut-FgWvVqwOu6DfXP/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> K105</a>
                     </li>
                     <li>
