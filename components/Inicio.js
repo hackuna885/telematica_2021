@@ -337,11 +337,10 @@ app.component('inicio-horarios', {
                       <a href="https://drive.google.com/file/d/1X28Rgkbu0Wgav9Xut-FgWvVqwOu6DfXP/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> K105</a>
                     </li>
                     <li>
-
-                      <a href="https://drive.google.com/file/d/17AV7M5XK56WDJNZ55LnX6Mfb_9lFgFW-/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> K107</a>
+                      <a href="https://drive.google.com/file/d/1-sWfE6uoa-4-driCUjqPBTLC9yQUGVql/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> K109</a>
                     </li>
                     <li>
-                      <a href="https://drive.google.com/file/d/1-sWfE6uoa-4-driCUjqPBTLC9yQUGVql/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> K109</a>
+                      <a href="https://drive.google.com/file/d/1WqvBCswXG_q5a24H4xxtmM5L8O39G3Gm/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> G102</a>
                     </li>
                     <li>
                       <a href="https://drive.google.com/file/d/1YjPke6e8dQVGV35AFyrBxmeEeSXrqMHj/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fontGrande bx bxs-file-pdf"></i> Kdirección matutino</a>
